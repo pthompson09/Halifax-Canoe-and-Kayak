@@ -1,0 +1,71 @@
+.header_bar {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  background-color:#09099e;
+  box-shadow: 0 4px rgba(0, 0, 0, 0.726);
+}
+.logo {
+  
+  height: 80px;
+  width: 80px;
+  
+
+}
+
+.header_button {
+   text-align: left;
+
+
+}
+  /* h1 title styling blue with white writing*/
+  h1 {
+    /*.  no positon absolute!!! */
+   top: 15px;
+   flex-grow: 1;
+   color: white;
+   align-self: center; /* this makes a vertical centering*/
+   display: flex;
+   justify-content: center; /* this two lines make horizontal centering by centering the inner text of the h1 */
+ }
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    
+  }
+
+   /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .menu {
+    display: none;
+ }
+
+h2 {
+  font-size: 50px;
+}
+
+h3, h4 {
+  text-decoration: underline;
+  text-decoration-color: green;
+  color: green;
+  font-size: 25px;
+}
+
+h2, h3, h4, p {
+
+  
+  
+}
+
+h5 {
+  font-size: 20px;
+}
